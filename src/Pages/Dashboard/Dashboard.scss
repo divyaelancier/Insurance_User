@@ -1,0 +1,60 @@
+.Dashb_paper{
+    box-shadow: 0 2px 15px 0 rgb(0 0 0 / 5%) !important;
+    border-radius: 5px !important;
+    padding:20px;
+}
+.MuiListItemIcon-root {
+    min-width:40px !important;
+>img{
+    width:25px;   
+}
+}
+.MuiListItemText-root{
+  font-family: "M_medium" !important;
+}
+.grid_container_myprofile{
+    padding-bottom: 10px;
+}
+.MuiListItem-root.Mui-selected, .MuiListItem-root.Mui-selected:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+    /* color: red; */
+    color: #0065ff !important;
+    font-weight: bold !important;
+    >svg{
+        fill:#0065ff !important;
+    }
+}
+.MuiListItem-root.Mui-selected, .MuiListItem-root.Mui-selected .MuiTypography-body1{
+font-weight: 600 !important;
+
+}
+.grid_container_myprofile .MuiTypography-body1{
+    font-weight: 500 !important;
+}
+.dashboard_page_{
+    .MuiDrawer-paperAnchorLeft{
+        top: 65px !important;
+        box-shadow: 0 2px 15px 0 rgb(0 0 0 / 5%) !important;
+        background-color: #fff !important;
+        border: none !important;
+        z-index: 200 !important;
+    }
+}
+.edit_ic_my{
+    fill:#00a2e6 !important;
+    cursor: pointer;
+}
+.moile_open_drawer{
+   display: none;
+}
+@media only screen and (min-width:320px) and (max-width: 480px){
+    .moile_open_drawer{
+        display:block;
+    }
+    .web_open_drawer{
+        display: none;
+    }
+    .dashoad_menu_div{
+        padding:25px !important;
+    }
+}    

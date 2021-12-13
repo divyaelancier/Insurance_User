@@ -1,0 +1,46 @@
+.customPrimary.MuiButton-contained {
+    background-color: #023e7d !important;
+    color: white;
+    text-transform: inherit;
+    box-shadow: 0px 2px 2px 1px #666464;
+    font-weight: bold;
+
+}
+.customPrimary.MuiButton-contained:hover {
+    background-color: #052a52 !important;
+
+}
+
+.btnContainer {
+    margin: 0 5px !important;
+    // width: 20%;
+    border-radius: 25px !important;
+    font-weight: bold !important;
+    color: white !important;
+    padding: 6px !important;
+    text-transform: none !important;
+    transition: 0.3s all ease-in-out;
+    // border: solid 1px #0065ff !important;
+    // text-transform: uppercase;
+    border-radius: 4px;
+    // background-color: #0065ff !important;
+    box-shadow: none !important;
+    background-image: linear-gradient(to right, #5192e1 0%, #23ced5 51%, #5192e1 100%);
+
+}
+.btnContainer:hover {
+    // border: solid 1px #0051cc;
+    // background-color: #0051cc !important;
+    background-position: right center;
+}
+// background: #0054a6;
+// color: #fff;
+
+.btnContainer .transition-3d-hover {
+    transition: all 0.2s ease-in-out;
+}
+
+.MuiButtonBase-root.Mui-disabled {
+    cursor: not-allowed !important;
+    pointer-events: all !important;
+}

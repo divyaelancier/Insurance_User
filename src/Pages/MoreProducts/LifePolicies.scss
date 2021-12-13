@@ -1,0 +1,201 @@
+.life_policy,.changed_life_policy{
+    border-radius:50px !important;
+    height:50px !important;
+    font-size: 20px !important;
+    color:#333 !important;
+    width:20%;
+    background-image: none !important;
+    // box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1) !important;
+    transition: all 0.3s ease 0s;
+
+}
+.life_ins_polic{
+    text-align: center;
+    margin: 35px 0px 20px;
+}
+.life_policy,.changed_life_policy:hover {
+    background-color: rgba(255,215,106,1) !important;
+    // box-shadow: 0px 15px 10px rgb(194, 179, 139) !important;
+    color: #333 !important;
+    transform: translateY(-2px);
+    
+}
+.changed_life_policy{
+    background-color: #fff !important;
+    box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%), 0px 6px 10px 0px rgb(0 0 0 / 14%), 0px 1px 18px 0px rgb(0 0 0 / 12%) !important;
+}
+.life_policy{
+    background-color: rgba(255,215,106,1) !important;
+     background-image: linear-gradient(to bottom right, #ffe259, #ffa751);
+}
+.term_ins_div{
+    text-align: center;
+    margin-bottom: 30px;
+    width:300px;
+    cursor: pointer;
+    >p{
+        word-wrap: break-word;
+        word-wrap: break-word;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        font-family: "M_Light" !important;
+    }
+    >h6{
+        font-size: 18px;
+        color:#333;
+        font-weight: 600;
+    }
+}
+.get_guote_btn{
+    background-color: #fff !important;
+    border-radius: 50px !important;
+    width:140px !important;
+    color:#333 !important;
+    background-image: none !important;
+   
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out !important;
+    border: 1px solid black !important;
+    background-size: 200%;
+    transition: .5s ease-out;
+   
+}
+.get_guote_btn:hover{
+    color: #fff !important;
+    border:none !important;
+    background-image: linear-gradient(to right, #5192e1 0%, #23ced5 51%, #5192e1 100%) !important;
+}
+// button css
+
+.need_help_div{
+    >div:first-child{
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        padding:20px 0px;
+    }
+}
+.need_common_div{
+    background-color: rgba(238,238,238,1);
+}
+.grid_in_help{
+    >div div{
+        text-align: end;
+        margin-bottom: 15px;
+    }
+    >div h6{
+        font-size: 20px;
+    }
+}
+.img_help{
+    margin-top: 20px;
+    box-shadow: 0 3px 8px 0 rgb(116 129 141 / 10%);
+}
+.img_help:hover{   
+color: #744cbc;
+text-decoration: none;
+border: 1px solid #744cbc;
+}
+.moreproduct_ins{
+    >a{
+        color:none !important;
+    }
+}
+.term_icon_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img_cont_div{
+    >div{
+    width:35%;
+    }
+}
+
+@media only screen and (min-width:590px) and (max-width: 768px)
+{
+  .term_ins_div{
+      width:200px;
+      font-size: 13px;
+      >h6{
+          font-size: 14px;
+      }
+      >img{
+        width:55px !important;
+      }
+      .get_guote_btn{
+        width: 110px !important;
+      }
+  }
+  .life_policy, .changed_life_policy{
+      width:36% !important;
+  }
+}
+@media only screen and (min-width:481px) and (max-width: 590px)
+{
+.term_icon_div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.life_policy, .changed_life_policy{
+    width:36% !important;
+    font-size: 15px !important;
+    height:40px !important;
+}
+.img_cont_div{
+    justify-content: space-between;
+    padding:20px 20px !important;
+    >div{
+    font-size: medium !important;
+    line-height: 1.7;
+    }
+    >img{
+        width:234px !important;
+    }
+}
+}
+
+@media only screen and (min-width:320px) and (max-width: 400px){
+    .img_cont_div{
+        >div{
+        font-size: 16px;
+        line-height: 1.7;
+        }
+        
+    }
+}
+@media only screen and (max-width:320px) {
+    .img_cont_div{
+        >div{
+        font-size: 14px;
+        line-height: 1.7;
+        }
+    }
+    .life_policy, .changed_life_policy{
+        height:30px !important;
+        width: 45% !important;
+        font-size: 12px !important;    
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width: 480px){
+    .life_policy, .changed_life_policy{
+        height:37px !important;
+        width: 42% !important;
+        font-size: 12px !important;    
+    }
+    .img_cont_div{
+        padding:20px 20px !important;
+        >div{
+        font-size:medium;
+        line-height: 1.7;
+        font-size: small;
+        }
+        
+    }
+}

@@ -1,0 +1,66 @@
+// @import "~slick-carousel/slick/slick.css";
+// @import "~slick-carousel/slick/slick-theme.css";
+// @font-face {
+//   font-family:"Montserrat";
+//   src:url('./font/Montserrat/Montserrat-Regular.ttf')format('truetype');
+// }
+*{
+font-family: "Montserrat" !important; 
+}
+
+@font-face {
+  font-family:"Montserrat";
+  src:url('./font/Montserrat/Montserrat-Regular.ttf')format('truetype');
+}
+
+@font-face {
+  font-family:"M_bold";
+  src:url('./font/Montserrat/Montserrat-Bold.ttf')format('truetype');
+}
+
+@font-face {
+  font-family:"M_medium";
+  src:url('./font/Montserrat/Montserrat-Medium.ttf')format('truetype');
+}
+
+@font-face {
+  font-family:"M_Light";
+  src:url('./font/Montserrat/Montserrat-Light.ttf')format('truetype');
+}
+a:focus, a:hover {
+  text-decoration: none !important;
+}
+h3{
+  font-size: 18px !important;
+  margin-bottom: 13px;
+  /* // font-weight: 600 !important; */
+  color:#00a2e6 !important;
+  font-family:"M_bold" !important;
+
+}
+h4{
+  font-size: 18px !important;
+  margin-bottom: 13px;
+  /* // font-weight: 600 !important; */
+  color:#00a2e6 !important;
+  font-family:"M_bold" !important;
+}
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+input:focus {
+  outline: none !important;
+}
+.btn_remove{
+  background-color: #ff000070;
+  border: none;
+  color:#fff;
+  padding:3px 5px;
+  border-radius: 5px;
+}
+.ant-select-dropdown{
+  z-index:2400;
+}
+.ant-notification{  
+  z-index: 30000 !important;
+ }

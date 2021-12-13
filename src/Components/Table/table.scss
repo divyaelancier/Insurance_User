@@ -1,0 +1,70 @@
+.tableHead .MuiButtonBase-root.MuiTableSortLabel-root,.tableHeadsno{
+    // color:#0353A4 !important;
+    font-weight: 700 !important;
+}
+.tableHead .MuiTableCell-head{
+    // color:#0353A4 !important;
+    font-weight: 700 !important;
+}
+.MuiTableCell-root{
+    border: 1px solid rgba(224, 224, 224, 1) !important;
+}
+.tableTitle{
+    padding: 2px 5px;
+    font-weight: 800;
+    font-size: 16px;
+}
+.MuiTableCell-sizeSmall{
+    padding:6px 10px 6px 8px !important;
+}
+
+.nodatafound img{
+    // width: 100%;
+    width: 100px;
+    // text-align: center !important;
+    margin-top: 40px;
+    margin-right: 100px;
+
+}
+.nodatafound.MuiTableCell-sizeSmall {
+    text-align: center !important;
+}
+
+.nodatatext{
+    margin-right: 100px;
+
+}
+
+
+.tableeye_icon {
+    color: #5377ee;
+    font-size: 20px !important;
+    margin-right: 7px;
+    cursor: pointer;
+  }
+  .tableedit_icon {
+    color: #82ae3f;
+    font-size: 20px !important;
+    margin-right: 7px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .tabledelete_icon {
+    color: #ee534f;
+    font-size: 20px !important;
+    cursor: pointer;
+  }
+  .tableupload_icon {
+    color: #82ae3f;
+    font-size: 20px !important;
+    margin-right: 7px;
+    cursor: pointer;
+  }
+  .tableupload_icon svg {
+    width: 18px;
+    height: 18px;
+    fill: #82ae3f;
+  }
+  .tableupload_icon {
+    padding-top: 3px;
+  }

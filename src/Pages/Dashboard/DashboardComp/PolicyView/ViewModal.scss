@@ -1,0 +1,22 @@
+._policy_type{
+    width:20%;
+    .formdiv{
+        margin-bottom: 0px;
+    }
+    .formdiv .Errormsg{
+        display: none;
+    }
+}
+.view_product{
+    >ul li{
+        margin-bottom: 8px;
+    }
+    >div{
+        margin-bottom: 8px; 
+        font-weight: bold;
+    }
+}
+
+.View_modal_cont{
+    padding:20px 20px;
+}

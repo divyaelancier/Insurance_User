@@ -1,0 +1,444 @@
+.paper_cls{
+    padding:15px;
+    width:60%;
+    box-shadow: 0 6px 16px rgb(52 105 203 / 16%) !important;
+    border-radius: 6px !important;
+}
+.motor_paper_cls{
+    padding:15px;
+    width:85%;
+    box-shadow: 0 6px 16px rgb(52 105 203 / 16%) !important;
+    border-radius: 6px !important;
+}
+.parent_grid_cont{
+    padding:3% 8%;
+}
+.motor_tex{
+    text-align: center;
+}
+.date_box .formdiv .brdrcls{
+    border: 0px !important;
+}
+.term_radio_btns{
+    width:100%;
+    text-align: center;
+   .MuiFormControl-root{
+       text-align: center !important;
+     
+   }
+   .MuiFormGroup-root{
+     justify-content: space-around !important;
+     width:100%;
+
+   }
+   .MuiTypography-body1{
+    font-size: 0.7rem;
+   }
+   >svg{
+       font-size: 1rem;
+   }
+}
+.term_ins_parent .formdiv .brdrcls{
+    height: 35px !important;
+   
+}
+.custm_quote{
+    text-align: center;
+    margin:10px 0px 20px;
+    .btnContainer{
+        padding: 6px 40px !important;
+    }
+}
+.term_ins_parent{
+    padding: 2% 0px 4%;
+    background-color: #f0f2f5 !important;
+}
+.term_ins_parent{
+    align-items: center;
+}
+.paper_term_cont{
+    >p{
+      text-align: center;
+    }
+    .paper_term_cont_child{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.btn_nxt_props{
+    padding:6px 70px !important;
+}
+
+// medical history
+.check_box_item{
+    >p:nth-child(2){
+        color: rgba(112,112,112,1);
+        font-size: 13px;
+        margin-bottom: 1.5rem;
+    }
+    >p{
+        margin-bottom: 5px;
+    }
+    >div{
+        margin-bottom: 15px;
+    }
+    .ant-checkbox + span{
+      font-size: 16px;
+      color: rgba(112,112,112,1);
+    }
+}
+// input[type=checkbox]
+// {
+//   /* Double-sized Checkboxes */
+//   -ms-transform: scale(2); /* IE */
+//   -moz-transform: scale(2); /* FF */
+//   -webkit-transform: scale(2); /* Safari and Chrome */
+//   -o-transform: scale(2); /* Opera */
+//   transform: scale(2);
+//   padding: 10px;
+// }
+
+// basic information
+.basic_infm_parent{
+    padding:5% 10%
+}
+.basic_infm_form_parent{
+    padding:5% 10% 
+}
+.addres_section{
+    padding: 10px 8px 0px !important;
+}
+.Custom_basic{
+    padding:30px 20px !important;
+    margin-bottom: 13px;
+}
+.b_sub_h{
+    margin-top: 15px;
+    // color:rgb(0 0 0 / 58%);
+    margin-bottom: 10px;
+    font-family: "M_medium" !important;
+}
+.bs_btn{
+    text-align: end;
+}
+.medi_ins_parent{
+    padding:3% 5%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+// information details
+.b_sub_h{
+    padding-left: 8px;
+    .ant-switch-checked{
+        background-color:green !important;
+
+    }
+}
+.main_head{
+    font-weight: bold;
+    padding-left: 8px;
+    padding-top: 15px;
+}
+.last_text_div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px 8px;
+    >label{
+        color:rgba(112,112,112,1);
+    }
+    >div{
+        font-weight: bold;
+    }
+    >div  svg{
+        font-size: 2rem;
+        fill:#dc3545;
+        cursor: pointer;
+    }
+}
+.bs_btn_custom{
+    text-align: end;
+    .btnContainer{
+        padding: 6px 70px !important;
+    }
+}
+
+.paper_cls{
+    width:85%;
+}
+// medical test
+.medical_basic_tet{
+    >div:first-child{
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    >div:nth-child(2){
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin:10px 0px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    >div:nth-child(2) >div{
+        border:1px solid #ccc;
+        background-color: rgba(239,239,239,1);
+        padding:5px 30px;
+        border-radius: 3px;
+    }
+}
+
+._tet_div{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding:15px !important;
+    >img{
+        width:55px;
+        height:auto;
+    }
+    >div{
+        padding-left:10px;
+    }
+}
+._tet_para{
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.medi_tst_parent{
+    padding:10px 6% 0px 6%;
+}
+
+// review
+.img_review_divs{
+    width:100%;
+    display: flex;
+    >div:first-child{
+        width:500px;
+    }
+    >div:nth-child(2){
+        width:100%;
+    }
+}
+.card_inner_body{
+    padding:0px !important;
+    height:100% !important;
+    >div:first-child{
+        border-bottom: 1px solid #ccc;
+        color: #40a9ff;
+        font-weight: 800;
+        text-align: center;
+    }
+    >div{
+        font-size: 17px;
+        padding:12px 20px;
+        line-height: 1.5;
+        
+    }
+    .m_h_div{
+      line-height: 2;
+      font-size: 20px !important;
+      >div:first-child{
+          color: #333;
+      }
+    }
+}
+.card-fst_div{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.star_div{
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+    margin-bottom: 10px;
+    >img{
+        padding-right:8px;
+    }
+}
+.card_itm_div{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card_texts_in{
+    width:230px;
+    height:135px;
+    background-color: rgba(230,229,255,1);
+    box-shadow: 0 7px 30px -10px rgb(150 170 180 / 50%);
+    >div:nth-child(2){
+        text-align: center;
+      padding-top: 20px;
+    }
+}
+.poicy_head{
+    font-size: 20px;
+}
+.review_parent{
+    padding:3% 5%;
+}
+.card_snd_items{
+    margin-top: 18px;
+}
+.agent_flow_add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.next {
+    // background-color: #377dff;
+    background-image: linear-gradient(to right, #5192e1 0%, #23ced5 51%, #5192e1 100%);
+    color: white;
+    border-radius: 4px;
+  }
+  a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  .next:hover{
+    // background-color: blue;
+    background-image: linear-gradient(to right, #5192e1 0%, #23ced5 51%, #5192e1 100%);
+    color: #fff;
+  }
+  .term_radio_btns .MuiFormLabel-root{
+      color:#198754 !important;
+      font-weight:600 !important;
+  }
+
+  .date_box .formdiv .MuiFormControl-marginNormal{
+      border:none !important;
+  }
+  .date_box .MuiInputBase-input{
+      display: none !important;
+  }
+  .date_box .MuiFormControl-root{
+      flex-direction: row !important;
+  }
+  .date_pic_div_con{
+      display: flex;
+      align-items: center;
+  }
+  .date_box .formdiv .labeltxt{
+    display: none !important;
+  }
+  .date_box{
+      margin-top:35px !important;
+  }
+  .date_box .MuiInputBase-root{
+      border: initial !important;
+  }
+  .date_box .MuiSvgIcon-root
+  {
+    fill: rgb(0 0 0 / 25%) !important;
+  }
+  .term_radio_btns{
+      >div:first-child{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          >div{
+              padding-left: 5px;
+              font-size: 15px;
+              color: #008000b5;
+              font-weight: 600;
+          }
+      }
+  }
+  .add_check{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding:20px 0px;
+      >div{
+      display: flex;
+      >div{
+          padding-left: 4px;
+          font-size: 13px;
+      }
+      }
+  }
+  .eye_viw{
+      fill:#40a9ff;
+      margin-right: 5px;
+      width: 20px;
+      height: 20px;
+      margin-top: 1px;
+      cursor: pointer;
+    //   display:none; 
+  }
+.printdata{
+    fill:#82ae3f !important;
+    cursor: pointer;
+}
+@media print{
+    
+}
+//   review media queries
+@media only screen and (min-width:320px) and (max-width: 580px){
+ .card_itm_div{
+     flex-wrap: wrap;
+     justify-content: center;
+ }
+ .card_texts_in{
+     margin-bottom: 10px;
+ }
+ .re_img_div{
+     text-align: center;
+     >img{
+         width:170px;
+     }
+ }
+ .card-fst_div{
+   display:block;
+ }
+ .basic_infm_parent{
+    padding: 2% 10px;
+    display: flex;
+    justify-content: center;
+ }
+}
+.sum_details_infm{
+    // display: grid;
+    box-shadow: 0 6px 16px rgb(52 105 203 / 16%) !important;
+    padding:10px;
+    margin: 10px 0px;
+    >div{
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+}
+
+// information media queries
+@media only screen and (min-width:320px) and (max-width: 480px){
+    .medical_basic_tet > div:nth-child(2){
+        font-size: 15px;
+    }
+    .medical_basic_tet > div:first-child{
+        font-size: 15px;
+    }
+    ._tet_div > div{
+       font-size: 15px;
+    }
+    ._tet_para{
+        font-size: 15px !important;
+    }
+    ._tet_div > img{
+      width:40px;
+    }
+    .paper_cls{
+       width:100%;
+       margin: 10px;
+    }
+    .basic_infm_form_parent {
+        padding: 15px 6%;
+    }
+}

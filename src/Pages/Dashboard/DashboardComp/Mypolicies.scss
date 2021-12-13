@@ -1,0 +1,164 @@
+.policies_contain .formdiv .selectAdjustHeight .ant-select-selector {
+    height: 39px !important;
+  }
+  .policies_contain{
+      h4{
+          margin-bottom: 10px;
+      }
+  }
+  .search_btn{
+      text-align: end;
+      .btnContainer{
+          width:12% !important;
+      }
+  }
+  .policies_contain .formdiv .brdrcls{
+    height: 39px !important;
+  }
+  .text_area_comp .formdiv .brdrcls{
+      height:70px !important;
+  }
+  .dow{
+      fill:#53b688 !important;
+  }
+  .rew{
+    fill:#ff4d4f !important;
+  }
+  .pay_btn_ic{
+      fill:#ff4d4fbd !important;
+  }
+  .accordion-button{
+
+  }
+
+
+
+  .profile_sub_div img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  position: relative;
+}
+.profile_sub_div {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: auto;
+  border: 6px solid #ffffff;
+  box-shadow: 0px 9px 20px rgb(0 0 0 / 15%);
+  position: relative;
+}
+.user_profile input#upload {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: -100%;
+}
+
+.paper_card{
+  margin:0px 0px 10px 0px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+  border-radius: 8px !important;
+  .inner_div{
+    // margin-right: 15px;
+    // width:20%;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    display: contents;
+  }
+.MuiTypography-root {
+   font-size: 14px;
+   margin-bottom: 10px;
+}
+.MuiTypography-root:first-child{
+  font-weight: bold;
+}
+.MuiCardContent-root{
+  padding-bottom: 0px !important; 
+}
+}
+.inner_icons_div{
+  // padding:0px 10px 10px 0px;
+  text-align:end;
+  .MuiTypography-root {
+    font-size: 14px;
+    margin-bottom: 0px !important;
+ }
+}
+.card_view{
+  display: none;
+}
+.submit_css_das{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textarea_div_claimes .formdiv .brdrcls{
+  height:100px !important;
+}
+.clear_btn{
+  background-color: #dc354587;
+  margin-left: 20px;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px 20px;
+}
+.submit_css_das{
+  // padding:14px 0px 0px 13px !important;
+  display: flex;
+  align-items: center;
+}
+.paid_btn{
+    background-color: #dc354587;
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 50px;
+    color: #fff;
+    margin-left: 10px;
+    // font-weight: bold;
+}
+@media only screen and (min-width:320px) and (max-width: 480px){
+  .policies_contain{
+    display: none;
+  }
+  .empty_grid{display:none !important;}
+
+  .card_view{
+    display: block;
+  }
+  .submit_css_das{
+    // justify-content: flex-end !important;
+    padding: 0px !important;
+    margin-bottom: 10px;
+    justify-content:flex-end !important;
+    width:100%;
+  }
+  .empty_grid{
+    display: none;
+  }
+  .service{
+    justify-content:flex-end !important;
+  }
+  .dashboard_page_{
+    display: block !important;
+  }
+  .branch_data{
+    display: block !important;
+    >div{
+      width:100% !important;
+      margin-bottom: 5px;
+    }
+  }
+    .view_content_div{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+  }
+  .card_icons_div{
+    display: flex;
+    // align-items: center;
+    justify-content: space-between;
+  }
+}

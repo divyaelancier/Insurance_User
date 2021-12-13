@@ -1,0 +1,15 @@
+.paper_term_cont_second{
+    margin-top: 50px;
+}
+.motor_paper_cls{
+    
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+    .paper_term_cont_child{
+      margin:10px 10px 20px 10px !important;
+    }
+    .motor_paper_cls{
+        width:100% !important;
+        // margin: 10px;
+    }
+}
